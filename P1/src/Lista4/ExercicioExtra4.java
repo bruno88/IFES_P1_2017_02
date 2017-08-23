@@ -19,7 +19,6 @@ public class ExercicioExtra4 {
 		denominador = sc1.nextInt();
 
 		if (denominador == 0) {
-
 			System.out.println("Fração Inválida, pois o denominador é igual a 0.");
 
 		} else {
@@ -27,7 +26,7 @@ public class ExercicioExtra4 {
 					//(double) numerador / denominador + ".");
 					 numerador / denominador + ".");
 		}
-
+		sc1.close();
 	}
 
 }

@@ -27,7 +27,6 @@ package Lista4;
 
 public class ExercicioExtra {
 	public static void main(String[] args) {
-		double total = 0;
 		int op;
 		String saida = "";
 
@@ -112,6 +111,6 @@ public class ExercicioExtra {
 		}
 
 		InOut.MsgDeInformação("", saida);
-
+		
 	}
 }

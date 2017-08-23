@@ -1,9 +1,9 @@
 /*
    Implemente uma calculadora que exiba o menu abaixo:
- 	1 - Somar
-	2 - Subtrair
-	3 - Multiplicar
-	4 - Dividir
+ 	+ - Somar
+	- - Subtrair
+	* - Multiplicar
+	/ - Dividir
 	
 	Após ler a opção do usuário e fazendo uso do Switch Case, receba dois 
 	números e retorne o resultado da operação, com base no operador 
@@ -13,8 +13,6 @@
 package Lista4;
 
 import java.util.Scanner;
-
-import javax.swing.plaf.synth.SynthSpinnerUI;
 
 public class ExercicioExtra2 {
 	public static void main(String[] args) {
@@ -41,7 +39,7 @@ public class ExercicioExtra2 {
 
 		switch (op) {
 		case "+":
-			// saida = "" + (num1 + num2);
+			// saida += (num1 + num2);
 			saida = String.valueOf(num1 + num2);
 			break;
 		case "-":
@@ -51,7 +49,11 @@ public class ExercicioExtra2 {
 			saida = String.valueOf(num1 * num2);
 			break;
 		case "/":
-			saida = String.valueOf(num1 / num2);
+			if (num2 != 0) {
+				saida = String.valueOf(num1 / num2);
+			} else {
+				saida = "Não é permitido divisão por zero";
+			}
 			break;
 		default:
 			System.out.println("Valor inválido!");
@@ -59,6 +61,6 @@ public class ExercicioExtra2 {
 		}
 
 		System.out.println(saida);
-
+		sc1.close();
 	}
 }

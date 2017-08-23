@@ -52,6 +52,7 @@ public class ExercicioExtra3 {
 		}
 
 		System.out.println(saida);
+		sc1.close();
 
 	}
 }
