@@ -23,8 +23,8 @@ public class ExercicioExtra4 {
 
 		} else {
 			System.out.println("O resultado da sua divisão é o número real " +
-					//(double) numerador / denominador + ".");
-					 numerador / denominador + ".");
+					(double) numerador / denominador + ".");
+					 // numerador / denominador + ".");
 		}
 		sc1.close();
 	}

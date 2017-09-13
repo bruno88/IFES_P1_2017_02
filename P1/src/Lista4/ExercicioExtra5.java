@@ -3,8 +3,10 @@ package Lista4;
 import java.util.Scanner;
 
 /**
- * Faça um programa que receba um dia da semana (de 1 a 7) e retorne o nome do
- * dia, sendo que 1 = Domingo e 7 = Sábado Em seguida, faça o oposto.
+ * Faça um programa que receba um dia da semana (de 1 a 7)
+ *  e retorne o nome do
+ * dia, sendo que 1 = Domingo e 7 = Sábado 
+ * Em seguida, faça o oposto.
  */
 public class ExercicioExtra5 {
 
@@ -17,7 +19,8 @@ public class ExercicioExtra5 {
 
 		switch (diaSemana) {
 		case 1:
-			saida = "Domingo";
+			System.out.println("O dia digitado é: domingo");
+			//saida = "Domingo";
 			break;
 		case 2:
 			saida = "Segunda";

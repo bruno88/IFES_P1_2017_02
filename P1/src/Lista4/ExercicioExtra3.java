@@ -1,5 +1,6 @@
 /*
-   Crie um programa que leia o nome do usuário e imprima um recado, conforme abaixo:
+   Crie um programa que leia o nome do usuário e imprima um recado, 
+   conforme abaixo:
  	1 - Bruno
  	2 - Pedro
  	3 - Maria
@@ -29,7 +30,7 @@ public class ExercicioExtra3 {
 
 		System.out.println(textoMenu);
 		op = sc1.nextLine().toLowerCase();
-
+		
 		switch (op) {
 		case "bruno":
 			saida = "Terá aula Segunda, Terça e Sexta";

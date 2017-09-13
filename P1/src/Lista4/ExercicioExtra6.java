@@ -13,9 +13,6 @@ public class ExercicioExtra6 {
 
 		String saida = "", nome1 = "", nome2 = "";
 
-		System.out.println("Digite o nome da primeira pessoa:");
-		nome1 = new Scanner(System.in).nextLine();
-
 		System.out.println("Digite a idade da primeira pessoa:");
 		idade1 = new Scanner(System.in).nextInt();
 
@@ -34,8 +31,5 @@ public class ExercicioExtra6 {
 				saida = nome2 + " é mais VELHO que " + nome1;
 			}
 		}
-
-		System.out.println(saida);
-
 	}
 }

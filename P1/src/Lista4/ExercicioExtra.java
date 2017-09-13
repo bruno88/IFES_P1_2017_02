@@ -61,6 +61,7 @@ public class ExercicioExtra {
 				System.exit(0);
 			}
 			break;
+		// 2 - Imprimir Letras
 		case 2:
 			textoMenu = "Você escolheu 'Imprimir Letras'. Escolha uma nova opção: ";
 			textoMenu += "\n1 - Imprimir A";
@@ -109,7 +110,7 @@ public class ExercicioExtra {
 			InOut.MsgDeInformação("", "Valor inválido! ");
 			System.exit(0);
 		}
-
+		
 		InOut.MsgDeInformação("", saida);
 		
 	}

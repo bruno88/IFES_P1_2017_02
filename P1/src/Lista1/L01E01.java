@@ -13,6 +13,7 @@ public class L01E01 {
 		double salBase, salLiquido;
 
 		salBase = InOut.leDouble("Informe o valor do seu salário base");
+		
 		salLiquido = (salBase + (salBase * gratificacao)) * (1 - imposto);
 		InOut.MsgDeInformação("", "O salario liquido de R$" + salLiquido);
 
